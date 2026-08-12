@@ -1031,7 +1031,7 @@ class T:
     def welcome(name, username, uid):
         now = datetime.now()
         return (
-            f"{B}\n🔥 𝗣𝗥𝗜𝗠𝗢𝗖𝗣𝗠𝗧𝗢𝗢𝗟 🔥\n{B}\n\n"
+            f"{B}\n🔥 𝗠𝗶𝗮𝘂𝘂𝗢𝗙𝗙𝗖𝗕𝗢𝗧 🔥\n{B}\n\n"
             f"  ╭──── 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 ────╮\n"
             f"  │ 👤 {name}\n"
             f"  │ 📱 @{username or 'N/A'}\n"
@@ -2576,7 +2576,7 @@ async def main():
     START_TIME = time.time()
 
     log.info("━"*40)
-    log.info("  🔥 𝗣𝗥𝗜𝗠𝗢𝗖𝗣𝗠𝗧𝗢𝗢𝗟 🔥")
+    log.info("  🔥 𝗠𝗶𝗮𝘂𝘂𝗢𝗙𝗙𝗖𝗕𝗢𝗧 🔥")
     log.info(f"  Owner:  {OWNER_ID}")
     log.info(f"  Users:  {len(ALLOWED_USERS)}")
     log.info(f"  Brotli: {'✔' if HAS_BROTLI else '✗ pip install brotli'}")
